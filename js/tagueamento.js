@@ -26,7 +26,8 @@
    'ga'
 );
 
-ga('create', 'UA-215872932-1', 'auto');
+//ga('create', 'UA-215872932-1', 'auto');
+ga('create', 'UA-12345-6', 'auto');
 ga('send', 'pageview');
 
 const sendEvents = (category, action, rotule) => {
